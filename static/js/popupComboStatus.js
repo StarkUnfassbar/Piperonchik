@@ -238,7 +238,7 @@ let contentPizza = `<div class="popup_left_content content_pizza">
                             <div data-value="100" data-content="pizza" class="content_block block_pizza">
 
                                 <div class="block_img">
-                                    <img data-block="img" src="static/Img/Section_Pizza/Мясной пир.png" alt="">
+                                    <img data-block="img" src="static/Img/Section_Pizza/Мясной Пир.png" alt="">
                                 </div>
 
                                 <div class="block_text">
