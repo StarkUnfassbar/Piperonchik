@@ -2,7 +2,7 @@ let buttonPopupComboClose = `<button data-button="combo-close" class="button pro
 let buttonPopupCombo = `<button data-button="combo" class="button product_button" type="button" data-type="secondary">Изменить</button>`
 
 let contentImg = `<div class="popup_left_content content_img">
-                        <img class="popup_left_img" src="../static/Img/Section_Combo/Пицца и напиток от 599 р.png" alt="">
+                        <img class="popup_left_img" src="static/Img/Section_Combo/Пицца и напиток от 599 р.png" alt="">
                     </div>`  
 
 let contentPizza = `<div class="popup_left_content content_pizza">
@@ -13,7 +13,7 @@ let contentPizza = `<div class="popup_left_content content_pizza">
                             <div data-value="0" data-content="pizza" class="content_block block_pizza">
 
                                 <div class="block_img">
-                                    <img data-block="img" src="../static/Img/Section_Pizza/Куриная с Грибами.png" alt="">
+                                    <img data-block="img" src="static/Img/Section_Pizza/Куриная с Грибами.png" alt="">
                                 </div>
 
                                 <div class="block_text">
@@ -30,7 +30,7 @@ let contentPizza = `<div class="popup_left_content content_pizza">
                             <div data-value="0" data-content="pizza" class="content_block block_pizza">
 
                                 <div class="block_img">
-                                    <img data-block="img" src="../static/Img/Section_Pizza/Маргарита плюс.png" alt="">
+                                    <img data-block="img" src="static/Img/Section_Pizza/Маргарита плюс.png" alt="">
                                 </div>
 
                                 <div class="block_text">
@@ -47,7 +47,7 @@ let contentPizza = `<div class="popup_left_content content_pizza">
                             <div data-value="50" data-content="pizza" class="content_block block_pizza">
 
                                 <div class="block_img">
-                                    <img data-block="img" src="../static/Img/Section_Pizza/Гавайская с Мясом.png" alt="">
+                                    <img data-block="img" src="static/Img/Section_Pizza/Гавайская с Мясом.png" alt="">
                                 </div>
 
                                 <div class="block_text">
@@ -65,7 +65,7 @@ let contentPizza = `<div class="popup_left_content content_pizza">
                             <div data-value="50" data-content="pizza" class="content_block block_pizza">
 
                                 <div class="block_img">
-                                    <img data-block="img" src="../static/Img/Section_Pizza/С Ветчиной и Грибами.png" alt="">
+                                    <img data-block="img" src="static/Img/Section_Pizza/С Ветчиной и Грибами.png" alt="">
                                 </div>
 
                                 <div class="block_text">
@@ -82,7 +82,7 @@ let contentPizza = `<div class="popup_left_content content_pizza">
                             <div data-value="50" data-content="pizza" class="content_block block_pizza">
 
                                 <div class="block_img">
-                                    <img data-block="img" src="../static/Img/Section_Pizza/Острая Халапеньо.png" alt="">
+                                    <img data-block="img" src="static/Img/Section_Pizza/Острая Халапеньо.png" alt="">
                                 </div>
 
                                 <div class="block_text">
@@ -100,7 +100,7 @@ let contentPizza = `<div class="popup_left_content content_pizza">
                             <div data-value="50" data-content="pizza" class="content_block block_pizza">
 
                                 <div class="block_img">
-                                    <img data-block="img" src="../static/Img/Section_Pizza/Цезарь Пицца.png" alt="">
+                                    <img data-block="img" src="static/Img/Section_Pizza/Цезарь Пицца.png" alt="">
                                 </div>
 
                                 <div class="block_text">
@@ -117,7 +117,7 @@ let contentPizza = `<div class="popup_left_content content_pizza">
                             <div data-value="100" data-content="pizza" class="content_block block_pizza">
 
                                 <div class="block_img">
-                                    <img data-block="img" src="../static/Img/Section_Pizza/Амереканское Счастье.png" alt="">
+                                    <img data-block="img" src="static/Img/Section_Pizza/Амереканское Счастье.png" alt="">
                                 </div>
 
                                 <div class="block_text">
@@ -135,7 +135,7 @@ let contentPizza = `<div class="popup_left_content content_pizza">
                             <div data-value="100" data-content="pizza" class="content_block block_pizza">
 
                                 <div class="block_img">
-                                    <img data-block="img" src="../static/Img/Section_Pizza/Баварская Особая.png" alt="">
+                                    <img data-block="img" src="static/Img/Section_Pizza/Баварская Особая.png" alt="">
                                 </div>
 
                                 <div class="block_text">
@@ -152,7 +152,7 @@ let contentPizza = `<div class="popup_left_content content_pizza">
                             <div data-value="100" data-content="pizza" class="content_block block_pizza">
 
                                 <div class="block_img">
-                                    <img data-block="img" src="../static/Img/Section_Pizza/Болоньезе с тефтелями.png" alt="">
+                                    <img data-block="img" src="static/Img/Section_Pizza/Болоньезе с тефтелями.png" alt="">
                                 </div>
 
                                 <div class="block_text">
@@ -169,7 +169,7 @@ let contentPizza = `<div class="popup_left_content content_pizza">
                             <div data-value="100" data-content="pizza" class="content_block block_pizza">
 
                                 <div class="block_img">
-                                    <img data-block="img" src="../static/Img/Section_Pizza/Греческая Курочка.png" alt="">
+                                    <img data-block="img" src="static/Img/Section_Pizza/Греческая Курочка.png" alt="">
                                 </div>
 
                                 <div class="block_text">
@@ -186,7 +186,7 @@ let contentPizza = `<div class="popup_left_content content_pizza">
                             <div data-value="100" data-content="pizza" class="content_block block_pizza">
 
                                 <div class="block_img">
-                                    <img data-block="img" src="../static/Img/Section_Pizza/Дети Любят.png" alt="">
+                                    <img data-block="img" src="static/Img/Section_Pizza/Дети Любят.png" alt="">
                                 </div>
 
                                 <div class="block_text">
@@ -203,7 +203,7 @@ let contentPizza = `<div class="popup_left_content content_pizza">
                             <div data-value="100" data-content="pizza" class="content_block block_pizza">
 
                                 <div class="block_img">
-                                    <img data-block="img" src="../static/Img/Section_Pizza/Крабовая с Фетаской.png" alt="">
+                                    <img data-block="img" src="static/Img/Section_Pizza/Крабовая с Фетаской.png" alt="">
                                 </div>
 
                                 <div class="block_text">
@@ -221,7 +221,7 @@ let contentPizza = `<div class="popup_left_content content_pizza">
                             <div data-value="100" data-content="pizza" class="content_block block_pizza">
 
                                 <div class="block_img">
-                                    <img data-block="img" src="../static/Img/Section_Pizza/Мясная бомба.png" alt="">
+                                    <img data-block="img" src="static/Img/Section_Pizza/Мясная бомба.png" alt="">
                                 </div>
 
                                 <div class="block_text">
@@ -238,7 +238,7 @@ let contentPizza = `<div class="popup_left_content content_pizza">
                             <div data-value="100" data-content="pizza" class="content_block block_pizza">
 
                                 <div class="block_img">
-                                    <img data-block="img" src="../static/Img/Section_Pizza/Мясной пир.png" alt="">
+                                    <img data-block="img" src="static/Img/Section_Pizza/Мясной пир.png" alt="">
                                 </div>
 
                                 <div class="block_text">
@@ -255,7 +255,7 @@ let contentPizza = `<div class="popup_left_content content_pizza">
                             <div data-value="100" data-content="pizza" class="content_block block_pizza">
 
                                 <div class="block_img">
-                                    <img data-block="img" src="../static/Img/Section_Pizza/Неаполитанская Курочка.png" alt="">
+                                    <img data-block="img" src="static/Img/Section_Pizza/Неаполитанская Курочка.png" alt="">
                                 </div>
 
                                 <div class="block_text">
@@ -272,7 +272,7 @@ let contentPizza = `<div class="popup_left_content content_pizza">
                             <div data-value="100" data-content="pizza" class="content_block block_pizza">
 
                                 <div class="block_img">
-                                    <img data-block="img" src="../static/Img/Section_Pizza/Пипперони Плюс.png" alt="">
+                                    <img data-block="img" src="static/Img/Section_Pizza/Пипперони Плюс.png" alt="">
                                 </div>
 
                                 <div class="block_text">
@@ -289,7 +289,7 @@ let contentPizza = `<div class="popup_left_content content_pizza">
                             <div data-value="100" data-content="pizza" class="content_block block_pizza">
 
                                 <div class="block_img">
-                                    <img data-block="img" src="../static/Img/Section_Pizza/Сырное Изобилие.png" alt="">
+                                    <img data-block="img" src="static/Img/Section_Pizza/Сырное Изобилие.png" alt="">
                                 </div>
 
                                 <div class="block_text">
@@ -306,7 +306,7 @@ let contentPizza = `<div class="popup_left_content content_pizza">
                             <div data-value="100" data-content="pizza" class="content_block block_pizza">
 
                                 <div class="block_img">
-                                    <img data-block="img" src="../static/Img/Section_Pizza/Четыре Вкуса.png" alt="">
+                                    <img data-block="img" src="static/Img/Section_Pizza/Четыре Вкуса.png" alt="">
                                 </div>
 
                                 <div class="block_text">
@@ -324,7 +324,7 @@ let contentPizza = `<div class="popup_left_content content_pizza">
                             <div data-value="200" data-content="pizza" class="content_block block_pizza">
 
                                 <div class="block_img">
-                                    <img data-block="img" src="../static/Img/Section_Pizza/Креветка Пикантная.png" alt="">
+                                    <img data-block="img" src="static/Img/Section_Pizza/Креветка Пикантная.png" alt="">
                                 </div>
 
                                 <div class="block_text">
@@ -351,7 +351,7 @@ let contentDrink = `<div class="popup_left_content content_drink">
                             <div data-value="0" data-content="drink" class="content_block block_drink">
 
                                 <div class="block_img">
-                                    <img data-block="img" src="../static/Img/Section_Drink/Coca-Cola.png" alt="">
+                                    <img data-block="img" src="static/Img/Section_Drink/Coca-Cola.png" alt="">
                                 </div>
 
                                 <div class="block_text">
@@ -366,7 +366,7 @@ let contentDrink = `<div class="popup_left_content content_drink">
                             <div data-value="0" data-content="drink" class="content_block block_drink">
 
                                 <div class="block_img">
-                                    <img data-block="img" src="../static/Img/Section_Drink/Sprite.png" alt="">
+                                    <img data-block="img" src="static/Img/Section_Drink/Sprite.png" alt="">
                                 </div>
 
                                 <div class="block_text">
@@ -381,7 +381,7 @@ let contentDrink = `<div class="popup_left_content content_drink">
                             <div data-value="0" data-content="drink" class="content_block block_drink">
 
                                 <div class="block_img">
-                                    <img data-block="img" src="../static/Img/Section_Drink/Fanta.png" alt="">
+                                    <img data-block="img" src="static/Img/Section_Drink/Fanta.png" alt="">
                                 </div>
 
                                 <div class="block_text">
@@ -396,7 +396,7 @@ let contentDrink = `<div class="popup_left_content content_drink">
                             <div data-value="0" data-content="drink" class="content_block block_drink">
 
                                 <div class="block_img">
-                                    <img data-block="img" src="../static/Img/Section_Drink/Fuzetea.png" alt="">
+                                    <img data-block="img" src="static/Img/Section_Drink/Fuzetea.png" alt="">
                                 </div>
 
                                 <div class="block_text">
@@ -411,7 +411,7 @@ let contentDrink = `<div class="popup_left_content content_drink">
                             <div data-value="10" data-content="drink" class="content_block block_drink">
 
                                 <div class="block_img">
-                                    <img data-block="img" src="../static/Img/Section_Drink/Амерекано.png" alt="">
+                                    <img data-block="img" src="static/Img/Section_Drink/Амерекано.png" alt="">
                                 </div>
 
                                 <div class="block_text">
@@ -426,7 +426,7 @@ let contentDrink = `<div class="popup_left_content content_drink">
                             <div data-value="80" data-content="drink" class="content_block block_drink">
 
                                 <div class="block_img">
-                                    <img data-block="img" src="../static/Img/Section_Drink/Латте.png" alt="">
+                                    <img data-block="img" src="static/Img/Section_Drink/Латте.png" alt="">
                                 </div>
 
                                 <div class="block_text">
@@ -441,7 +441,7 @@ let contentDrink = `<div class="popup_left_content content_drink">
                             <div data-value="80" data-content="drink" class="content_block block_drink">
 
                                 <div class="block_img">
-                                    <img data-block="img" src="../static/Img/Section_Drink/Капучино.png" alt="">
+                                    <img data-block="img" src="static/Img/Section_Drink/Капучино.png" alt="">
                                 </div>
 
                                 <div class="block_text">
@@ -456,7 +456,7 @@ let contentDrink = `<div class="popup_left_content content_drink">
                             <div data-value="100" data-content="drink" class="content_block block_drink">
 
                                 <div class="block_img">
-                                    <img data-block="img" src="../static/Img/Section_Drink/Раф-кофе.png" alt="">
+                                    <img data-block="img" src="static/Img/Section_Drink/Раф-кофе.png" alt="">
                                 </div>
 
                                 <div class="block_text">
@@ -471,7 +471,7 @@ let contentDrink = `<div class="popup_left_content content_drink">
                             <div data-value="80" data-content="drink" class="content_block block_drink">
 
                                 <div class="block_img">
-                                    <img data-block="img" src="../static/Img/Section_Drink/Молочный коктель.png" alt="">
+                                    <img data-block="img" src="static/Img/Section_Drink/Молочный коктель.png" alt="">
                                 </div>
 
                                 <div class="block_text">
@@ -487,7 +487,7 @@ let contentDrink = `<div class="popup_left_content content_drink">
                             <div data-value="80" data-content="drink" class="content_block block_drink">
 
                                 <div class="block_img">
-                                    <img data-block="img" src="../static/Img/Section_Drink/Орео Коктель.png" alt="">
+                                    <img data-block="img" src="static/Img/Section_Drink/Орео Коктель.png" alt="">
                                 </div>
 
                                 <div class="block_text">
@@ -504,7 +504,7 @@ let contentDrink = `<div class="popup_left_content content_drink">
                             <div data-value="80" data-content="drink" class="content_block block_drink">
 
                                 <div class="block_img">
-                                    <img data-block="img" src="../static/Img/Section_Drink/Коктель Millka.png" alt="">
+                                    <img data-block="img" src="static/Img/Section_Drink/Коктель Millka.png" alt="">
                                 </div>
 
                                 <div class="block_text">
@@ -530,7 +530,7 @@ let contentSupplement = `<div class="popup_left_content content_supplement">
                                 <div data-value="0" data-content="supplement" class="content_block block_supplement">
 
                                     <div class="block_img">
-                                        <img data-block="img" src="../static/Img/Section_Combo/Adds/Без Добавок.jpg" alt="">
+                                        <img data-block="img" src="static/Img/Section_Combo/Adds/Без Добавок.jpg" alt="">
                                     </div>
 
                                     <div class="block_text">
@@ -546,7 +546,7 @@ let contentSupplement = `<div class="popup_left_content content_supplement">
                                 <div data-value="159" data-content="supplement" class="content_block block_supplement">
 
                                     <div class="block_img">
-                                        <img data-block="img" src="../static/Img/Section_Combo/Adds/Сыр Моцарелла.jpg" alt="">
+                                        <img data-block="img" src="static/Img/Section_Combo/Adds/Сыр Моцарелла.jpg" alt="">
                                     </div>
 
                                     <div class="block_text">
@@ -563,7 +563,7 @@ let contentSupplement = `<div class="popup_left_content content_supplement">
                                 <div data-value="99" data-content="supplement" class="content_block block_supplement">
 
                                     <div class="block_img">
-                                        <img data-block="img" src="../static/Img/Section_Combo/Adds/Лук Хрустящий.jpg" alt="">
+                                        <img data-block="img" src="static/Img/Section_Combo/Adds/Лук Хрустящий.jpg" alt="">
                                     </div>
 
                                     <div class="block_text">
@@ -579,7 +579,7 @@ let contentSupplement = `<div class="popup_left_content content_supplement">
                                 <div data-value="159" data-content="supplement" class="content_block block_supplement">
 
                                     <div class="block_img">
-                                        <img data-block="img" src="../static/Img/Section_Combo/Adds/Творожный сыр.jpg" alt="">
+                                        <img data-block="img" src="static/Img/Section_Combo/Adds/Творожный сыр.jpg" alt="">
                                     </div>
 
                                     <div class="block_text">
@@ -595,7 +595,7 @@ let contentSupplement = `<div class="popup_left_content content_supplement">
                                 <div data-value="159" data-content="supplement" class="content_block block_supplement">
 
                                     <div class="block_img">
-                                        <img data-block="img" src="../static/Img/Section_Combo/Adds/Овечий Сыр Фетаско.jpg" alt="">
+                                        <img data-block="img" src="static/Img/Section_Combo/Adds/Овечий Сыр Фетаско.jpg" alt="">
                                     </div>
 
                                     <div class="block_text">
@@ -611,7 +611,7 @@ let contentSupplement = `<div class="popup_left_content content_supplement">
                                 <div data-value="99" data-content="supplement" class="content_block block_supplement">
 
                                     <div class="block_img">
-                                        <img data-block="img" src="../static/Img/Section_Combo/Adds/Перец острый халапеньо.jpg" alt="">
+                                        <img data-block="img" src="static/Img/Section_Combo/Adds/Перец острый халапеньо.jpg" alt="">
                                     </div>
 
                                     <div class="block_text">
@@ -627,7 +627,7 @@ let contentSupplement = `<div class="popup_left_content content_supplement">
                                 <div data-value="159" data-content="supplement" class="content_block block_supplement">
 
                                     <div class="block_img">
-                                        <img data-block="img" src="../static/Img/Section_Combo/Adds/Пипперои Премиум.png" alt="">
+                                        <img data-block="img" src="static/Img/Section_Combo/Adds/Пипперои Премиум.png" alt="">
                                     </div>
 
                                     <div class="block_text">
