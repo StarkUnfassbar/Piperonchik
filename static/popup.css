@@ -1,0 +1,363 @@
+body.lock{
+    overflow: hidden;
+}
+
+
+.popup{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    top: 0;
+    right: 0;
+    opacity: 0;
+    visibility: collapse;
+    overflow-y: auto;
+    overflow-x: hidden;
+    transition: all 0.8s ease 0s;
+}
+
+    .popup.open{
+        opacity: 1;
+        visibility: visible;
+    }
+
+        .popup.open .popup_content{
+            opacity: 1;
+            transform: perspective(600px) translate(0, 0) rotateX(0deg);
+        }
+
+    .popup_body{
+        min-height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 30px 10px;
+    }
+
+    .popup_content{
+        background-image: url("../static/Img/Корзина/Корзина_Фон.png");
+        background-size: 100%;
+        background-position: top center;
+        color: #dcdcdc;
+        width: 70%;
+        padding: 30px;
+        position: relative;
+        transition: all 0.8s ease 0s;
+        opacity: 0;
+        transform: perspective(600px) translate(0px, -100%) rotateX(45deg);
+    }
+
+
+    .popup-line{
+        padding: 1px 0px;
+        width: 90%;
+        background-color: #000;
+        margin: 20px 40px;
+    }
+
+    .popup_close{
+        position: absolute;
+        right: 50px;
+        top: 10px;
+        font-size: 20px;
+        color: #222222;
+        text-decoration: none;
+    }
+
+    .popup_header{
+        font-size: 40px;
+        padding-bottom: 60px;
+        padding-left: 40px;
+        color: #222222;
+        font-family: "OpenSansBold";
+    }
+
+
+    
+    .popup_warning{
+        background-color: #dcdcdc;
+        width: 90%;
+        padding: 15px 40px;
+        margin: 0px 40px;
+        text-align: center;
+        }
+        
+        .popup_warning p{
+            font-size: 22px;
+            color: #444444;
+            margin: 0;
+        }
+
+    .popup_booking{
+        display: block;
+        height: 100%;
+    }
+
+    .popup_menu{
+        display: inline-flex;
+        margin: 10px 40px;
+        padding: 10px 20px 10px 40px;
+        border: #000 3px solid;
+        border-radius: 10px;
+        width: 90%;
+    }
+
+        .mnu_img{
+            position: relative;
+            overflow:hidden;
+            min-width: 100px;
+            height: 100px;
+            margin: 10px 0;
+        }
+
+            .mnu_img img{
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform:translate(-50%,-50%);
+                width: 100px;
+                height: 100px;
+                object-fit:cover;
+            }
+
+        .popup_menu .mnu_text{
+            padding-left: 50px;
+            min-width: 300px;
+            max-width: 300px;
+        }
+
+            .mnu_text p{
+                color: #444444;
+                font-size: 13px;
+                margin-bottom: 6px;
+            }
+
+            .mnu_header{
+                font-size: 20px;
+                color: #000;
+                padding: 12px 0;
+            }
+
+        .mnu_quantity {
+            padding: 40px 25px;
+            display: inline-flex;
+        }
+
+            .mnu_text_quantity{
+                color: #222222;
+                font-family: "OpenSansBold";
+                font-size: 16px;
+                padding: 0 20px;
+            }
+
+            .mnu_button{
+                border: none;
+                background-size: cover;
+                background-position: top center;
+                width: 22px;
+                height: 21px;
+                margin-top: 2px;
+            }
+
+                .button_minus{
+                    background-image: url("../static/Img/Корзина/Кнопки/Кнопка_Минус_Неактив.png");
+                }
+
+                        
+                    .button_minus:hover{
+                        background-image: url("../static/Img/Корзина/Кнопки/Кнопка_Минус_АктивV2.png");
+                    }
+
+                .button_plus{
+                    background-image: url("../static/Img/Корзина/Кнопки/Кнопка_Плюс_Неактив.png");
+                }
+
+                    .button_plus:hover{
+                        background-image: url("../static/Img/Корзина/Кнопки/Кнопка_Плюс_АктивV2.png");
+                    }
+        
+        .mnu_sum {
+            margin: 21px 25px;
+            min-width: 140px;
+            display: inline-flex;
+        }
+        
+            .mnu_sum strike{
+                font-family: 'OpenSansBold', sans-serif;
+                color: #656565;
+                font-size: 20px;
+                padding: 15px 10px;
+            }
+
+        .mnu_close {
+            margin: 32px 25px;
+        }
+
+            .button_close{
+                height: 25px;
+                width: 26px;
+                background-image: url("../static/Img/Корзина/Кнопки/Кнопка_Закрыть_Неактив.png");
+            }
+
+                .button_close:hover{
+                    background-image: url("../static/Img/Корзина/Кнопки/Кнопка_Закрыть_АктивV2.png");
+                }
+
+
+
+    .popup_sum{
+        display: inline-flex;
+        width: 100%;
+        justify-content: right;
+        padding-right: 40px;
+    }
+
+        .sum_header{
+            color: #222222;
+            font-size: 18px;
+            font-family: "OpenSansBold";
+            text-align: right;
+            padding: 10px 20px;
+        }
+
+        .popup_sum .sum_quantity{
+            color: #222222;
+            font-size: 24px;
+            font-family: "OpenSansBold";
+            text-align: right;
+        }
+
+        .popup_sum .sum_quantity_ruble{
+            color: #222222;
+            font-size: 24px;
+            font-family: "OpenSansBold";
+            text-align: right;
+            padding-left: 3px;
+        }
+
+
+    .popup_labels{
+        margin: 30px 0;
+        height: 100%;
+        display: block;
+        justify-content: left;
+    }
+
+        .popup_label{
+            width: 100%;
+            padding: 0 40px;
+        }
+
+            .popup_label span{
+                font-family: "OpenSansRegular";
+                font-size: 18px;
+                color: #222222;
+                opacity: .7;
+                padding: 5px 0;
+            }
+
+            .popup_label input{
+                width: 100%;
+                padding: 0 5px;
+                border-radius: 4px;
+                border: #000 2px solid;
+                height: 40px;
+                background-color: #eef4f8;
+            }
+            .popup_label input._error{
+                box-shadow: 0 0 15px red;
+            }
+
+                .label_comment textarea{
+                    width: 100%;
+                    padding: 0 5px;
+                    border-radius: 4px;
+                    border: #000 2px solid;
+                    height: 150px;
+                    background-color: #eef4f8;
+                    resize: none;
+                }
+
+
+
+    .popup_pay{
+        margin: 40px 40px;
+        height: 100%;
+    }
+
+        .pay_header{
+            font-family: "OpenSansBold";
+            font-size: 18px;
+            color: #222222;
+            padding-bottom: 10px;
+        }
+
+        .popup_switch{
+            display: inline-flex;
+        }
+
+            .popup_switch p{
+                color: #222222;
+                font-size: 16px;
+                font-family: "OpenSansSemiBold";
+            }
+
+            input[type='radio'] {
+                margin: 0 10px;
+                padding-right: 10px;
+                width: 10px;
+                height: 10px;
+                position: relative;
+                -webkit-appearance: none;
+                -moz-appearance: none;
+                appearance: none;
+                outline: none;
+            }
+            
+            input[type='radio']::before {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 22px;
+            height: 22px;
+            border-radius: 50%;
+            transform: translate(-50%, -50%);
+            background-color: white;
+            border: 2px solid #000;
+            }
+            
+            input[type='radio']:checked::after {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            background-color: #000;
+            transform: translate(-50%, -50%);
+            visibility: visible;
+            }
+
+                .switch_1{
+                    padding-right: 110px;
+                }
+
+                .switch_2{
+                    padding-right: 45px;
+                }
+
+                .switch_3{
+                    padding-left: 55px;
+                }
+
+
+    .button_popup{
+        justify-content: center;
+        display: flex;
+        margin: 60px 40px;
+        border-radius: 2px;
+        font-size: 20px;
+    }

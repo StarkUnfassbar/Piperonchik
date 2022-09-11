@@ -1,0 +1,719 @@
+@media only screen and (max-width : 1400px) {
+    
+    .s-adv .achive-2{
+        padding-left: 60px;
+    }
+    
+        .s-adv .achive-3{
+            padding-left: 160px;
+        }
+
+    
+    
+    label select{
+        margin-left: 60px;
+    }
+
+        .block-text{
+            min-height: 130px;
+        }
+
+
+    
+    .s-pizza .block .block-icon-img {
+        margin-left: 335px;
+    }
+
+
+
+    .popup_menu .mnu_text {
+        padding: 0 25px s!important;
+        min-width: 0 !important;
+    }
+
+        .popup_menu .mnu_quantity {
+            padding: 40px 30px 0 10px
+        }
+
+        .popup_menu .mnu_sum {
+            display: block;
+            margin: 21px 30px;
+            min-width: 0;
+        }
+
+        .popup_menu .mnu_sum .block-sum {
+            padding: 0;
+            margin-bottom: 2px;
+        }
+
+        .popup_menu .mnu_sum strike {
+            padding: 0;
+        }
+
+        .popup_menu .mnu_close {
+            margin: 32px 0px 0px auto;
+        }
+
+
+
+    .popup_combo .popup_body .popup_content{
+        width: 80%;
+    }
+
+        .popup_combo_content .popup_left{
+            min-width: 55%;
+        }
+
+            .popup_combo_content .popup_left_content{
+                width: 550px;
+            }
+
+}
+
+@media only screen and (max-width : 1200px) {
+    
+    .s-adv .achive-2{
+        padding-left: 0px;
+    }
+    
+        .s-adv .achive-3{
+            padding-left: 70px;
+        }
+
+    
+    
+    .s-pizza .block .block-img{
+        min-height: 200px;
+    }
+
+        .s-pizza .block .block-icon-img{
+            margin-left: 315px;
+        }
+
+        label select{
+            margin-left: 30px;
+        }
+
+        .block-text{
+            min-height: 160px;
+        }
+
+        .s-pizza .block .block-icon-img {
+            margin-left: 280px;
+        }
+
+
+
+    .s-block .block h3 {
+        font-size: 20px;
+        }
+
+        .s-combo .block .button_combo{
+            margin-top: 20px;
+            margin-left: 40px;
+        }
+
+
+
+    .s-delivery .block h3 {
+        font-size: 24px;
+    }
+
+
+
+    .popup_body .popup_content{
+        width: 80%;
+    }
+
+
+
+    .popup_combo .popup_body .popup_content{
+        width: 100%;
+    }
+
+        .popup_combo_content .popup_left{
+            min-width: 50%;
+        }
+
+            .popup_combo_content .popup_left_content{
+                width: 480px;
+            }
+
+        .popup_right .popup_right_sum .button_pizza{
+            margin: 2px 0 0 150px;
+        }
+
+}
+
+@media only screen and (max-width : 992px) {
+
+    .mnu-line a h3 {
+        font-size: 16px;
+    }
+
+    .mnu-line img{
+        width: 22px;
+    }
+
+        .mnu-logo img{
+            width: 100%;
+        }
+
+        .Basket img{
+            width: 45px;
+            margin-left: 50px;
+        }
+
+
+
+    .s-adv .block h2{
+        font-size: 22px;
+    }
+
+        .s-adv .block p{
+            font-size: 14px;
+        }
+
+        .s-adv .achive-2{
+            padding-left: 5px;
+        }
+
+        .s-adv .achive-3{
+            padding-left: 50px;
+        }
+
+
+
+    .s-pizza .block .block-icon-img{
+        margin-left: 315px;
+    }
+
+        
+        label select{
+            margin-left: 50px;
+        }
+
+
+    
+    .s-drink .drink-line-1 .block-img{
+        width: 40%;
+        min-height: 165px;
+    }
+
+        .s-drink .drink-line-2 .block-img{
+            width: 70%;
+            min-height: 165px;
+        }
+
+        .s-drink .drink-line-3 .block-img{
+            width: 50%;
+            min-height: 165px;
+        }
+
+
+
+    .s-combo .block .button_combo{
+        margin-left: 70px;
+    }
+
+
+
+    .s-delivery .heading h2{
+        text-align: center;
+    }
+
+        .s-delivery .block br{
+            margin: 5px 0;
+        }
+    
+        .s-delivery .block h3{
+            min-height: 30px;
+            padding-top: 0;
+            font-size: 27px;
+        }
+
+        .s-delivery .block{
+            margin-bottom: 30px;
+            text-align: center;
+        }
+
+
+
+    .popup_body .popup_content{
+        width: 90%;
+    }
+
+
+
+    .popup_combo .popup_combo_content{
+        display: block;
+    }
+
+        .popup_combo_content .popup_left{
+            min-width: 100%;
+        }
+
+            .popup_combo_content .popup_left_content{
+                width: 600px;
+                height: 600px;
+                margin: 0 150px;
+            }
+
+        .popup_right .popup_right_sum .button_pizza{
+            margin: 2px 0 0 400px;
+        }  
+
+}
+
+@media only screen and (max-width : 900px) {
+
+    .popup_body .popup_content{
+        width: 100%;
+    }
+
+        .popup_booking .popup_menu{
+            display: block;
+            padding: 0px 200px;
+            text-align: center;
+        }
+
+            .popup_booking .popup_menu .mnu_text{
+                padding: 0;
+                max-width: 350px;
+            }
+
+            .popup_booking .popup_menu .mnu_quantity{
+                padding: 40px 0 0 0;
+            }
+
+            .popup_booking .popup_menu .mnu_close{
+                position: absolute;
+                right: 90px;
+                top: 170px;
+            }
+
+
+
+        .popup_combo .popup_combo_content{
+            display: block;
+        }
+    
+            .popup_combo_content .popup_left{
+                min-width: 100%;
+            }
+    
+                .popup_combo_content .popup_left_content{
+                    width: 550px;
+                    height: 550px;
+                    margin: 0 100px;
+                }
+    
+            .popup_right .popup_right_sum .button_pizza{
+                margin: 2px 0 0 350px;
+            }   
+
+}
+
+@media only screen and (max-width : 768px) {
+
+    .Basket img{
+        margin-left: 150px;
+    }
+
+        .toggle-mnu{
+            margin-top: -35px;
+            margin-left: 215px;
+        }
+
+    
+
+    .Front_Page{
+        text-align: center;
+    }
+
+        .Front_Page h1{
+            font-size: 40px;
+        }
+
+        .Front_Page p{
+            font-size: 18px;
+        }
+
+        .Front_Page .button{
+            margin: 150px 0;
+        }
+
+    
+
+    .block-text{
+        font-size: 17px;
+    }
+
+
+
+    .s-adv{
+        height: 480px;
+        text-align: center;
+    }
+
+        .s-adv .achive-3{
+            padding-left: 0px;
+        }
+    
+
+
+    label select{
+        margin-left: 132px;
+    }
+
+
+
+    .s-drink .drink-line-1 .block-img{
+        width: 30%;
+        min-height: 165px;
+    }
+
+        .s-drink .drink-line-2 .block-img{
+            width: 60%;
+            min-height: 165px;
+        }
+
+        .s-drink .drink-line-3 .block-img{
+            width: 40%;
+            min-height: 165px;
+        }
+
+
+
+    .s-block .block h3 {
+        font-size: 23px;
+        }
+
+        .s-combo .block .button_combo{
+            margin-left: 160px;
+        }
+
+
+
+    .s-delivery .block{
+        margin-bottom: 60px;
+    }
+
+
+
+    .s-contacts .block-contact h2 {
+        font-size: 43px;
+    }
+
+        .s-contacts .block-contact p {
+            font-size: 18px;
+        }
+
+        .s-block .block-contact p span{
+            font-size: 20px;
+        }
+
+
+
+    .popup_booking .popup_menu{
+        padding: 0px 150px;
+    }
+
+
+
+    .popup_combo .popup_combo_content{
+        display: block;
+    }
+
+        .popup_combo_content .popup_left{
+            min-width: 100%;
+        }
+
+            .popup_combo_content .popup_left_content{
+                width: 550px;
+                height: 550px;
+                margin: 0 40px;
+            }
+
+        .popup_right .popup_right_sum .button_pizza{
+            margin: 2px 0 0 280px;
+        }    
+
+}
+
+@media only screen and (max-width : 650px) {
+
+    .popup_combo .popup_combo_content{
+        display: block;
+    }
+
+        .popup_combo_content .popup_left{
+            min-width: 100%;
+        }
+
+            .popup_combo_content .popup_left_content{
+                width: 450px;
+                height: 450px;
+                margin: 0 70px;
+            }
+
+        .popup_right .popup_right_sum .button_pizza{
+            margin: 2px 0 0 200px;
+        }   
+    
+}
+
+@media only screen and (max-width : 600px) {
+
+    .popup_booking .popup_menu{
+        padding: 0px 100px;
+    }
+
+        .popup_booking .popup_menu .mnu_close{
+            right: 70px;
+        }
+
+        .popup_content .popup_sum{
+            padding: 0;
+            justify-content: center;
+        }
+        
+        .popup_content .popup_pay{
+            text-align: center;
+        }
+
+            .popup_pay .popup_switch{
+                text-align: left;
+                display: block;
+            }
+
+                .popup_pay .popup_switch .switch_1{
+                    padding: 0;
+                }
+                .popup_pay .popup_switch .switch_2{
+                    padding: 0;
+                }
+                .popup_pay .popup_switch .switch_3{
+                    padding: 0;
+                }
+
+
+    
+    .popup_combo .popup_combo_content{
+        display: block;
+    }
+
+        .popup_combo_content .popup_left{
+            min-width: 100%;
+        }
+
+            .popup_combo_content .popup_left_content{
+                width: 400px;
+                height: 400px;
+                margin: 0 70px;
+            }
+
+        .popup_right .popup_right_sum .button_pizza{
+            margin: 2px 0 0 150px;
+        }   
+
+    
+}
+
+@media only screen and (max-width : 550px) {
+
+    .popup_combo .popup_combo_content{
+        display: block;
+    }
+
+        .popup_combo_content .popup_left{
+            min-width: 100%;
+        }
+
+            .popup_combo_content .popup_left_content{
+                width: 400px;
+                height: 400px;
+                margin: 0 30px;
+            }
+
+        .popup_right .popup_right_sum .button_pizza{
+            margin: 2px 0 0 100px;
+        }   
+    
+}
+
+@media only screen and (max-width : 480px) {
+
+    .mnu-line .row{
+        width: 400px;
+    }
+
+    label select {
+        margin-left: 100px;
+    }
+
+
+
+    .popup_content .popup-line{
+        margin: 20px 20px;
+    }
+
+    .popup_content .popup_warning{
+        margin: 0 20px;
+    }
+
+    .popup_booking .popup_menu{
+        margin: 10px 20px;
+        padding: 0 30px;
+    }
+
+    .popup_labels .popup_label{
+        padding: 0 10px;
+    }
+
+
+
+    .popup_combo .popup_combo_content{
+        display: block;
+    }
+
+        .popup_combo_content .popup_left{
+            min-width: 100%;
+        }
+
+            .popup_combo_content .popup_left_content{
+                width: 350px;
+                height: 350px;
+                margin: 0 30px;
+            }
+
+        .popup_combo_content .popup_right .popup_right_sum{
+            display: block;
+            text-align: center;
+        }
+
+            .popup_right .popup_right_sum .button_pizza{
+                margin: 10px 0 0 0px;
+            }
+            
+            .popup_right .popup_right_sum .block_sum_right{
+                min-width: 100%;
+                padding: 0 150px;
+            }
+
+}
+
+@media only screen and (max-width : 420px) {
+
+    .mnu-line .Basket img{
+        margin-left: 100px;
+    }
+
+        .mnu-line .Basket .toggle-mnu{
+            margin-left: 160px;
+        }
+
+
+    
+    label select {
+        margin-left: 75px;
+        }
+
+
+
+    .s-combo .block .button_combo{
+        margin-left: 90px;
+    }
+
+
+
+    .popup_combo .popup_combo_content{
+        display: block;
+    }
+
+        .popup_combo_content .popup_left{
+            min-width: 100%;
+        }
+
+            .popup_combo_content .popup_left_content{
+                width: 250px;
+                height: 250px;
+                margin: 0 60px;
+            }
+
+        .popup_combo_content .popup_right .popup_right_sum{
+            display: block;
+            text-align: center;
+        }
+
+            .popup_right .popup_right_sum .button_pizza{
+                margin: 10px 0 0 0px;
+            }
+            
+            .popup_right .popup_right_sum .block_sum_right{
+                min-width: 100%;
+                padding: 0 120px;
+            }
+
+}
+
+@media only screen and (max-width : 380px) {
+
+    .mnu-line .Basket img{
+        margin-left: 50px;
+    }
+
+        .mnu-line .Basket .toggle-mnu{
+            margin-left: 110px;
+        }
+    
+
+    
+    .Front_Page h1 {
+        font-size: 28px;
+        }
+    
+    
+    
+    label select {
+        margin-left: 50px;
+        }
+
+
+    
+    .s-combo .block .button_combo{
+        margin-left: 70px;
+    }
+
+
+
+    
+    .popup_combo .popup_combo_content{
+        display: block;
+    }
+
+        .popup_combo_content .popup_left{
+            min-width: 100%;
+        }
+
+            .popup_combo_content .popup_left_content{
+                width: 250px;
+                height: 250px;
+                margin: 0 30px;
+            }
+
+        .popup_combo_content .popup_right .popup_right_sum{
+            display: block;
+            text-align: center;
+        }
+
+            .popup_right .popup_right_sum .button_pizza{
+                margin: 10px 0 0 0px;
+            }
+            
+            .popup_right .popup_right_sum .block_sum_right{
+                min-width: 100%;
+                padding: 0 100px;
+            }
+
+}

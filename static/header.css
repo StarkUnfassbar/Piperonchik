@@ -1,0 +1,211 @@
+.none{
+    display: none;
+}
+
+h1, h2, h3, h4{
+    font-family: "OpenSansLight", sans-serif;
+    font-weight: normal;
+    color: #ffffff;
+}
+
+    h1{
+        font-size: 55px;
+        line-height: 1.15
+    }
+
+    h2{
+        font-size: 48px;
+    }
+
+    h3{
+        font-size: 23px
+    }
+
+    h4{
+        font-size: 13px
+    }
+
+p{
+    color: #ffffff;
+}
+
+
+
+a{
+    outline: none;
+}
+
+
+
+.mnu-line{
+    background-color: #000000;
+}
+
+    .mnu-line .container{
+        height: 100px;
+        padding: 10px 0;
+    }
+
+    .mnu-line img{
+        width: 28px;
+        padding-bottom: 7px;
+    }
+
+.logo{
+    display: block;
+    width: 50px;
+    margin-left: 20px;
+}
+
+    .logo img{
+        width: 100%;
+    }
+
+.mnu-logo p{
+    font-family: "OpenSansSemiBold", sans-serif;
+    font-size: 12px;
+}
+
+.mnu-line h3{
+    font-family: "OpenSansSemiBold", sans-serif;
+    font-size: 18px;
+    display:table-cell;
+    padding: 26px 0;
+}
+
+
+.Combo img{
+    width: 35px;
+    padding-bottom: 2px;
+}
+
+
+.Basket img{
+    width: 45px;
+    margin-left: 110px;
+    margin-top: 9px;
+}
+
+
+.hidden-mnu{
+    display: none;
+}
+
+    .hidden-mnu .container{
+        height: 300px;
+        padding: 10px 0;
+        text-align: center;
+    }
+
+    .hidden-mnu .Pizza:hover, .hidden-mnu .Pizza:active{
+        background-color: #ecb124;
+    }
+
+    .hidden-mnu .Drink:hover, .hidden-mnu .Drink:active{
+        background-color: #ecb124;
+    }
+
+    .hidden-mnu .Combo:hover, .hidden-mnu .Combo:active{
+        background-color: #ecb124;
+    }
+
+    .hidden-mnu .Dessert:hover, .hidden-mnu .Dessert:active{
+        background-color: #ecb124;
+    }
+
+
+.Front_Page{
+    width: 100%;
+    height: 90vh;
+    background-image: url("../static/Img/Bg_Head.png");
+    background-size: cover;
+	background-position: top center;
+    min-height: 650px;
+}
+
+    .Front_Page h1{
+        text-transform: uppercase;
+        font-family: "OpenSansBold", sans-serif;
+    }
+
+    .Front_Page p{
+        font-family: "OpenSansSemiBold", sans-serif;
+        font-size: 20px;
+    }
+
+    .Front_Page .row{
+        padding: 100px 30px;
+    }
+
+
+.button{
+    display: inline-block;
+    border: none;
+    background-color: #14b75a;
+    color: #ffffff;
+    text-transform: uppercase;
+    padding: 13px 50px;
+    font-family: "OpenSansRegular", sans-serif;
+    font-size: 14px;
+    border-radius: 13px;
+    box-shadow: 0 4px 0 #0e9c4b;
+    text-decoration: none;
+    transition: all .15s ease;
+}
+
+    .button:hover, .button:focus{
+        color: #ffffff;
+        text-decoration: none;
+    }
+
+    .button:hover{
+        background-color: #18CB65;
+    }
+
+    .button:active{
+        background-color: #0e9c4b;
+        transform: translateY(2px);
+    }
+
+
+    
+.Front_Page .button{
+    margin: 223px 0;
+}
+
+.toggle-mnu {
+    display: block;
+    width: 28px;
+    height: 28px;
+    margin-top: 14px;
+  }
+  .toggle-mnu span:after, .toggle-mnu span:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 9px;
+  }
+  .toggle-mnu span:after {
+    top: 18px;
+  }
+  .toggle-mnu span {
+    position: relative;
+    display: block;
+  }
+  .toggle-mnu span, .toggle-mnu span:after, .toggle-mnu span:before {
+    width: 100%;
+    height: 2px;
+    background-color: #fff;
+    transition: all 0.3s;
+    backface-visibility: hidden;
+    border-radius: 2px;
+  }
+  .toggle-mnu.on span {
+    background-color: transparent;
+  }
+  .toggle-mnu.on span:before {
+    transform: rotate(45deg) translate(-1px, 0px);
+  }
+  .toggle-mnu.on span:after {
+    transform: rotate(-45deg) translate(6px, -7px);
+  }
